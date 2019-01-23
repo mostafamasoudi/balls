@@ -109,7 +109,7 @@ void ShowBlock(blocks rect[7][6])
                 SDL_Rect fillRect = {rect[i][j].xrect, rect[i][j].yrect, rect[i][j].Bwidth, rect[i][j].Bheight};
                 SDL_SetRenderDrawColor(gRenderer, 100, 100, 100, 100);
                 SDL_RenderFillRect(gRenderer, &fillRect);
-                shownumber(rect, i, j);
+                //shownumber(rect, i, j);
             }
             else if (rect[i][j].value == -1)
             {
