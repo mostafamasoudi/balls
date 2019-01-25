@@ -21,6 +21,13 @@ SDL_Surface *screenSurface = NULL;
 float u = 0;
 const float pi = 3.1428;
 
+void fuck()
+{
+int kos,kir;
+cin>>kos;
+cout<<kir;
+}
+
 void Init()
 {
     window = SDL_CreateWindow("ball", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
