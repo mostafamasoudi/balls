@@ -20,12 +20,23 @@ SDL_Surface *screenSurface = NULL;
 
 float u = 0;
 const float pi = 3.1428;
+<<<<<<< HEAD
 int GohNakhor()
 {
     int h=0;
     h++;
     return h;
 }
+=======
+
+void fuck()
+{
+int kos,kir;
+cin>>kos;
+cout<<kir;
+}
+
+>>>>>>> reza
 void Init()
 {
     window = SDL_CreateWindow("ball", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
